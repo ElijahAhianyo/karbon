@@ -25,6 +25,7 @@ class CustomUIFileDialog(UIFileDialog):
 class Karbon:
     def __init__(self):
         pg.init()
+        pg.display.set_icon(pg.image.load("assets/icon/icon.png"))
         pg.display.set_caption("Karbon")
         screen = pg.display.Info()
         w, h = screen.current_w, screen.current_h
